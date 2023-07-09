@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/table_border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CDEFBB" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#424141">
+
+        <TableRow
+            android:background="@drawable/table_row_border">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="Question   No."
+                android:textSize="25sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="Marks Obtained"
+                android:textSize="25sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="Total   Marks"
+                android:textSize="25sp"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained1"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks1"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="2"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained2"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks2"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:text="3"
+                android:background="@drawable/table_cell_border1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained3"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks3"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained4"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks4"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:text="5"
+                android:background="@drawable/table_cell_border1"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained5"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks5"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained6"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks6"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained7"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks7"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="8"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained8"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks8"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:text="9"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained9"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks9"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained10"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks10"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:text="11"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained11"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks11"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:text="12"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained12"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks12"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:text="13"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained13"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks13"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:text="14"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained14"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks14"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:text="15"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextMarksObtained15"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+            <AutoCompleteTextView
+                android:id="@+id/editTextTotalMarks15"
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:inputType="number"
+                style="PopupMenuStyle"/>
+
+        </TableRow>
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="Total Obtained"
+                android:textSize="25sp"
+                android:textColor="#000000" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="Total Marks"
+                android:textSize="25sp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border"
+                android:gravity="center"
+                android:text="Percentage Final"
+                android:textSize="25sp"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow android:background="@drawable/table_row_border">
+
+            <TextView
+                android:id="@+id/textViewTextMarksObtainedfinal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textViewTotalMarksfinal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/textViewPercentagefinal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_border1"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#000000" />
+
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/buttonClearMarks"
+        android:layout_width="190dp"
+        android:layout_weight="1"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="8dp"
+        android:text="Clear"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"  android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonClearAll"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+
+        android:layout_marginTop="750dp"
+        android:text="Clear All"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background" />
+
+</RelativeLayout>
